@@ -1,0 +1,90 @@
+[
+  {
+    "ContainingType": "Geladeira_ProjetoAPI.Controllers.GeladeiraController",
+    "Method": "AdicionarItem",
+    "RelativePath": "api/Geladeira/adicionar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "andar",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "container",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "posicao",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "item",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Geladeira_ProjetoAPI.Controllers.GeladeiraController",
+    "Method": "ObterItens",
+    "RelativePath": "api/Geladeira/itens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Geladeira_ProjetoAPI.Controllers.GeladeiraController",
+    "Method": "RemoverItem",
+    "RelativePath": "api/Geladeira/remover",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "andar",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "container",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "posicao",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Geladeira_ProjetoAPI.Controllers.GeladeiraController",
+    "Method": "RemoverTodosItens",
+    "RelativePath": "api/Geladeira/removerTodos",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "andar",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "container",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

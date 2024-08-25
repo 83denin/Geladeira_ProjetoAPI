@@ -1,0 +1,6 @@
+@Geladeira_ProjetoAPI_HostAddress = http://localhost:5281
+
+GET {{Geladeira_ProjetoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
